@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:textAlignment="center"
-        android:text="Are you sure you want to logout?"
+        android:text="Are you sure you want to logout? TEST"
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@color/black"
