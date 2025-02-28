@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="180dp"
         android:layout_height="180dp"
-        android:src="@drawable/register"
+        android:src="@drawable/register_icon"
         android:layout_gravity="center"/>
 
     <TextView
