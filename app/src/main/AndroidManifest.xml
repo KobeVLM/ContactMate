@@ -20,6 +20,7 @@
             android:exported="false" />
         <activity
             android:name=".LandingActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".DeveloperActivity"
@@ -27,10 +28,6 @@
         <activity
             android:name=".LogoutActivity"
             android:exported="false" />
-        <activity
-            android:name=".ui.login.LogoutActivity"
-            android:exported="false"
-            android:label="@string/title_activity_logout" />
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
