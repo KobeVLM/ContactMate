@@ -58,6 +58,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="8dp"/>
 
+
     <CheckBox
         android:id="@+id/privacyCheckBox"
         android:layout_width="wrap_content"
@@ -71,5 +72,18 @@
         android:layout_height="wrap_content"
         android:text="Save Settings"
         android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About the Developers"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="goToDeveloperPage" />
+
 
 </LinearLayout>

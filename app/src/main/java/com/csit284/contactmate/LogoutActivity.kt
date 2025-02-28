@@ -10,5 +10,17 @@ class LogoutActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.logout)
+
+        val cancelButton = findViewById<Button>(R.id.cancel)
+        cancelButton.setOnClickListener() {
+            Toast.makeText(this, "Cancel button is clicked!", Toast.LENGTH_LONG).show()
+
+        }
+
+        val logoutButton = findViewById<Button>(R.id.logout)
+        logoutButton.setOnClickListener {
+            Toast.makeText(this, "Logout button is clicked!", Toast.LENGTH_LONG).show()
+        }
+
     }
 }

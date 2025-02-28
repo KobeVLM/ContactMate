@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:textAlignment="center"
-        android:text="Are you sure you want to logout? TEST"
+        android:text="Are you sure you want to logout?"
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -42,6 +42,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/cancel"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
@@ -51,6 +52,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/logout"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
