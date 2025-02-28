@@ -5,28 +5,55 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo_icon">
+
+    </ImageView>
+
     <TextView
+        android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="Welcome to ContactMate – Your Ultimate Tool for Seamless Connections!"
         android:textAlignment="center"
         android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginTop="100dp" />
+        android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/profile"
+    <LinearLayout
+        android:id="@+id/buttonContainer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Profile" />
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_margin="20dp"
+            android:text="Profile" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_margin="20dp"
+            android:text="Settings" />
+
+    </LinearLayout>
 
     <Button
-        android:id="@+id/settings"
+        android:id="@+id/developersButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Settings" />
+        android:layout_gravity="center"
+        android:text="Developers" />
 
 </LinearLayout>

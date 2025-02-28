@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/developerTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Developer Team"
@@ -14,29 +15,30 @@
         android:paddingTop="20dp" />
 
     <LinearLayout
+        android:id="@+id/developerList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp"
-
-        >
+        android:padding="16dp">
 
         <LinearLayout
+            android:id="@+id/developerItem1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="10dp">
 
             <ImageView
+                android:id="@+id/developerImage1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/profile1"
+                android:src="@drawable/legaspino_pfp"
                 android:layout_gravity="center"
                 android:background="@drawable/circle"
-                android:scaleType="centerCrop"
-                />
+                android:scaleType="centerCrop" />
 
             <LinearLayout
+                android:id="@+id/developerInfo1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -44,19 +46,22 @@
                 android:paddingLeft="10dp">
 
                 <TextView
+                    android:id="@+id/developerName1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Name: John Doe"
+                    android:text="Name: James Stefan C. Legaspino"
                     android:textStyle="bold"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bio: Lead Developer with 5 years of experience in Android development."
                     android:textSize="16sp" />
 
                 <TextView
+                    android:id="@+id/developerBio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bio: 2nd Year aspiring Programmer."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/developerFunFact1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Fun Fact: Loves hiking and outdoor adventures."
@@ -65,21 +70,23 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/developerItem2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="10dp">
 
             <ImageView
+                android:id="@+id/developerImage2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/profile2"
+                android:src="@drawable/marikit_pfp"
                 android:layout_gravity="center"
                 android:background="@drawable/circle"
-                android:scaleType="centerCrop"
-                />
+                android:scaleType="centerCrop" />
 
             <LinearLayout
+                android:id="@+id/developerInfo2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -89,20 +96,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Name: Jane Smith"
+                    android:text="Name: Kobe Vincent L. Marikit"
                     android:textStyle="bold"
-                    android:textSize="18sp" />
+                    android:textSize="17sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bio: UI/UX Designer with a passion for creating intuitive user experiences."
+                    android:text="Bio: 2nd Year and don't know how to code."
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Fun Fact: Enjoys painting and digital art."
+                    android:text="Fun Fact: Enjoys code errors and digital art."
                     android:textSize="16sp" />
             </LinearLayout>
         </LinearLayout>
@@ -126,7 +133,15 @@
             android:textStyle="bold"
             android:textSize="24sp"
             android:paddingBottom="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+63 123 456 7890"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            >
 
+        </TextView>
 
 </LinearLayout>
 

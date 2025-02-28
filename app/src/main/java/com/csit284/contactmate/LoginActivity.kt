@@ -12,14 +12,14 @@ class LoginActivity : Activity() {
         setContentView(R.layout.login)
 
         val loginButton = findViewById<Button>(R.id.login)
-        loginButton.setOnClickListener() {
+        loginButton.setOnClickListener {
             Toast.makeText(this, "Login button clicked, going to Landing Page", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, RegisterActivity::class.java)
+            val intent = Intent(this, LandingActivity::class.java)
             startActivity(intent)
         }
 
         val registerButton = findViewById<Button>(R.id.register)
-        registerButton.setOnClickListener() {
+        registerButton.setOnClickListener {
             Toast.makeText(this, "Register button clicked", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
