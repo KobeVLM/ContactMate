@@ -21,6 +21,10 @@ class LandingActivity : AppCompatActivity() {
         val settingsButton = findViewById<Button>(R.id.settingsButton)
         settingsButton.setOnClickListener {
             Toast.makeText(this, "Settings button clicked!", Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this, SettingsActivity::class.java)
+            startActivity(intent)
+
         }
 
         val developersButton = findViewById<Button>(R.id.developersButton)
